@@ -60,10 +60,11 @@ p {
 #desktop-nav, #hamburger-nav {
   position: fixed;
   width: 100%;
-  height: 10%;
+  height: 8%;
   top: 0;
   background-color: var(--primary-color);
   z-index: 1000;
+  border-bottom: 2px solid var(--secondary-color-2);
 }
 
 body {
@@ -96,10 +97,11 @@ body {
 #desktop-nav, #hamburger-nav {
   position: fixed;
   width: 100%;
-  height: 10%;
+  height: 8%;
   top: 0;
   background-color: var(--primary-color);
   z-index: 1000;
+  border-bottom: 2px solid var(--secondary-color-2);
 }
 
 body {
