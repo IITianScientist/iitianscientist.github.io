@@ -1,10 +1,14 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 65vh;
+    height: 83vh;
     margin-bottom: 6rem;
   }
   .about-containers {
     flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
   }
 }
 
@@ -49,7 +53,7 @@
     height: 40vh;
   }
   #profile {
-    height: 55vh;
+    height: 83vh;
     margin-bottom: 0;
   }
   article {
