@@ -71,7 +71,7 @@ body {
   padding-top: 100px;
 }
 
-#profile, #about, #experience, #projects, #contact {
+#profile, #about, #experience, #certification, #projects, #contact {
   margin-top: 100px;
 }
 
@@ -108,7 +108,7 @@ body {
   padding-top: 100px;
 }
 
-#profile, #about, #experience, #projects, #contact {
+#profile, #about, #experience, #certification, #projects, #contact {
   margin-top: 100px;
 }
 
@@ -485,6 +485,50 @@ article {
   margin: 0;
 }
 
+/* CERTIFICATION SECTION */
+
+#certification {
+  position: relative;
+}
+
+.certification-sub-title {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.certification-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cert-article-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the articles horizontally */
+  gap: 2.5rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content vertically */
+  width: 10rem;
+  gap: 0.5rem;
+}
+
+.article .icon {
+  cursor: default;
+}
+
+.article h3,
+.article p {
+  text-align: center; /* Center text within the article */
+  margin: 0;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -510,6 +554,13 @@ article {
 .project-btn {
   color: var(--secondary-color);
   border-color: var(--container-border);
+}
+
+.viewall-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
 }
 
 /* CONTACT */
