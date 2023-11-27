@@ -54,15 +54,6 @@ p {
   color: var(--secondary-color-2);
 }
 
-footer {
-  width: 100%;
-  background-color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-
 /*----------------------*/
 
 
@@ -70,16 +61,16 @@ footer {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #fff;
+  background-color: var(--primary-color);
   z-index: 1000;
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 #profile, #about, #experience, #projects, #contact {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .nav-links {
@@ -96,7 +87,7 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: var(--secondary-color);
 }
 
 /*---------------------*/
@@ -105,16 +96,16 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #fff;
+  background-color: var(--primary-color);
   z-index: 1000;
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 #profile, #about, #experience, #projects, #contact {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .nav-links {
@@ -131,20 +122,10 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #333;
-}
-
-footer {
-  width: 100%;
-  background-color: #fff;
-  text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+  color: var(--secondary-color);
 }
 
 /*----------------------*/
-
-
 
 /* TRANSITION */
 
