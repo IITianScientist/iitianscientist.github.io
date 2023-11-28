@@ -42,9 +42,16 @@ h3 {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
 
 html {
   scroll-behavior: smooth;
@@ -105,8 +112,16 @@ body {
 }
 
 body {
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+
 
 #profile, #about, #experience, #certification, #projects, #contact {
   margin-top: 100px;
